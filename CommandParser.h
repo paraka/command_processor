@@ -1,6 +1,8 @@
 #ifndef _COMMAND_PARSER_H_
 #define _COMMAND_PARSER_H_
 
+#include <cstdint>
+#include <cstring>
 #include "Command.h"
 
 class CommandParser
