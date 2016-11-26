@@ -1,0 +1,23 @@
+= WTF is this =
+This is just a stupid command parser and processor using
+modern c++ features like std:function among others. It has
+been thought to parse command from a chunk of bytes of data.
+The only important think to know is that command is in the 
+first byte. 
+
+= Dependencies =
+Modern c++ compiler (g++ >= 4.8)
+
+= Compile =
+$ mkdir build
+$ cd build && cmake ..
+$ make
+
+= Compile unit tests =
+Google test libraries are needed.
+
+$ cd unit_tests
+$ mkdir build
+$ cd build && cmake ..
+$ make
+
