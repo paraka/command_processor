@@ -10,13 +10,13 @@ class CommandImpl
 public:
     void process_command_a(const char *data)
     {
-        std::cout << std::string(data).c_str() << std::endl;
+        // Do whatever with rest of data and use protocol
         protocol.read_foo();
     }
 
     void process_command_b(const char *data)
     {
-        std::cout << std::string(data).c_str() << std::endl;
+        // Do whatever with rest of data and use protocol
         protocol.read_bar();
     }
 
